@@ -1,0 +1,26 @@
+{
+  "name": "latte",
+  "version": "0.0.1",
+  "description": "Templates engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldezex/latte.git"
+  },
+  "keywords": [
+    "templates",
+    "engine",
+    "compiler",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Aldezex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aldezex/latte/issues"
+  },
+  "homepage": "https://github.com/aldezex/latte#readme"
+}
