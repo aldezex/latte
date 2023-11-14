@@ -1,32 +1,35 @@
 {
-  "name": "latte",
-  "version": "0.0.1",
-  "description": "Templates engine",
-  "main": "index.js",
-  "scripts": {
-    "test": "vitest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aldezex/latte.git"
-  },
-  "keywords": [
-    "templates",
-    "engine",
-    "compiler",
-    "typescript",
-    "javascript"
-  ],
-  "author": "Aldezex",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aldezex/latte/issues"
-  },
-  "homepage": "https://github.com/aldezex/latte#readme",
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.11.0",
-    "@typescript-eslint/parser": "^6.11.0",
-    "eslint": "^8.53.0",
-    "typescript": "^5.2.2"
-  }
+	"name": "latte",
+	"version": "0.0.1",
+	"description": "Templates engine",
+	"main": "index.js",
+	"scripts": {
+		"build": "vite build",
+		"test": "vitest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aldezex/latte.git"
+	},
+	"keywords": [
+		"templates",
+		"engine",
+		"compiler",
+		"typescript",
+		"javascript"
+	],
+	"author": "Aldezex",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/aldezex/latte/issues"
+	},
+	"homepage": "https://github.com/aldezex/latte#readme",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^6.11.0",
+		"@typescript-eslint/parser": "^6.11.0",
+		"eslint": "^8.53.0",
+		"typescript": "^5.2.2",
+		"vite": "^4.5.0",
+		"vitest": "^0.34.6"
+	}
 }
